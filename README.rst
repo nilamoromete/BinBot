@@ -11,9 +11,10 @@ BinBot
 
 Update config files to make sure not to trade any coins you don't want to.
 
-.. code-block: : pycon
+.. code-block:: pycon
+
 	>>> bb = BinBot()
-	>>> bb.hunt(10000, 0.01)  #1 trial every .01 second dependent on ping to server
+	>>> bb.hunt(10000, 0.01)  # One trial every .01 second dependent on ping to server
 	
 	>>> #Check ping
 	>>> bb.check_server_time_difference()
