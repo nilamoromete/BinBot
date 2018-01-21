@@ -25,4 +25,5 @@ Requirements:
 Requires python-binance package. 
 
 .. code-block:: console
+	
 	$ pip install python-binance
