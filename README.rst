@@ -23,5 +23,6 @@ Update config files to make sure not to trade any coins you don't want to.
 Requirements:
 --------------------
 Requires python-binance package. 
-.. code-block: : console
+
+.. code-block:: console
 	$ pip install python-binance
